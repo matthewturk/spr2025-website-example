@@ -3,12 +3,21 @@
   "mark": "bar",
   "height": 400,
   "width": 400,
+  "transform": [],
   "data": {
     "url": "https://vega.github.io/editor/data/movies.json"
   },
   "encoding": {
-    "x": {"field": "IMDB Rating", "bin":true},
-    "y": {"field": "Worldwide Gross", "aggregate": "sum"},
-    "color": {"field": "MPAA Rating"}
+    "x": {
+      "field": "IMDB Rating",
+      "bin": true
+    },
+    "y": {
+      "field": "Worldwide Gross",
+      "aggregate": "sum"
+    },
+    "color": {
+      "field": "MPAA Rating"
+    }
   }
 }
